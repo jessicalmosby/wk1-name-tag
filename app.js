@@ -11,4 +11,8 @@ console.log('nameDisplay', nameDisplay);
 const colorSelector = document.getElementById('color-selector');
 colorSelector.addEventListener('change', () => {
     console.log('I am changing the color');
+    nameDisplay.classList.remove('pink');
+    nameDisplay.classList.remove('lavender');
+    nameDisplay.classList.remove('purple');
+    nameDisplay.classList.add(colorSelector.value);
 });
