@@ -7,3 +7,8 @@ submitBtn.addEventListener('click', () => {
 
 const nameDisplay = document.getElementById('name');
 console.log('nameDisplay', nameDisplay);
+
+const colorSelector = document.getElementById('color-selector');
+colorSelector.addEventListener('change', () => {
+    console.log('I am changing the color');
+});
