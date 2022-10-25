@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(224, 234, 247);
+    --background: rgb(245, 239, 239);
     --header-background: rgb(254, 251, 245);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
@@ -44,4 +44,13 @@ main {
 
 .purple {
     color: purple;
+}
+
+h1 {
+    background-color: rgb(168, 150, 166);
+}
+
+.nameDisplay {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
 }
